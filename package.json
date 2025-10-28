@@ -1,0 +1,25 @@
+{
+  "name": "ai-tutor-backend",
+  "version": "2.0.0",
+  "description": "Enhanced AI tutoring backend with Groq, DeepSeek, RAG, and multi-language support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["ai", "tutoring", "groq", "deepseek", "rag", "education"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "groq-sdk": "^0.3.0",
+    "pdf-parse": "^1.1.1",
+    "axios": "^1.6.0",
+    "@google-cloud/translate": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
